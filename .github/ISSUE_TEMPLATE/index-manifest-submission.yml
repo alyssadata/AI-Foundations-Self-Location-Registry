@@ -1,0 +1,121 @@
+name: Index Manifest Submission
+description: Submit a public Index Manifest for registry review.
+title: "[Index Manifest] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit only public information that you are authorized to publish.
+        The full Self-Location Record must already exist at a canonical source.
+
+  - type: input
+    id: canonical_name
+    attributes:
+      label: Canonical Name
+      description: Current authoritative name of the entity.
+      placeholder: Example Project
+    validations:
+      required: true
+
+  - type: input
+    id: record_id
+    attributes:
+      label: Record ID
+      description: Stable identifier from the full Self-Location Record.
+      placeholder: example:project:sample:1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: entity_type
+    attributes:
+      label: Entity Type
+      options:
+        - person
+        - project
+        - repository
+        - paper
+        - hypothesis
+        - dataset
+        - system
+        - AI agent
+        - organization
+        - institution
+        - product
+        - standard
+        - registry node
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: canonical_record_url
+    attributes:
+      label: Canonical Self-Location Record
+      description: Public URL of the full authoritative record.
+      placeholder: https://example.org/self-location
+    validations:
+      required: true
+
+  - type: input
+    id: authority
+    attributes:
+      label: Responsible Authority
+      description: Person, organization, institution, or governed role responsible for the canonical record.
+    validations:
+      required: true
+
+  - type: textarea
+    id: authority_basis
+    attributes:
+      label: Authority Basis and Proof
+      description: Explain your authority and provide a public verification route.
+    validations:
+      required: true
+
+  - type: input
+    id: current_version
+    attributes:
+      label: Current Record Version
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: visibility
+    attributes:
+      label: Manifest Visibility
+      options:
+        - public record / public manifest
+        - restricted record / public manifest
+    validations:
+      required: true
+
+  - type: textarea
+    id: manifest
+    attributes:
+      label: Completed Index Manifest
+      description: Paste the complete YAML manifest from INDEX-MANIFEST-TEMPLATE.yaml.
+      render: yaml
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: authorization
+    attributes:
+      label: Authorization
+      options:
+        - label: I am authorized to submit this Index Manifest.
+          required: true
+        - label: I authorize this registry node to validate the public source, preserve the submitted manifest and its version, create a searchable index entry, and point users and systems back to the canonical record under the permissions stated in the manifest.
+          required: true
+        - label: I confirm that this submission contains no restricted or private information that I am unauthorized to publish.
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Optional context, conflicts, unknowns, or requested review notes.
+    validations:
+      required: false
