@@ -1,5 +1,5 @@
 cff-version: "1.2.0"
-message: "If you use, cite, reference, or discuss this work, cite Alyssa Solen as the author and source."
+message: "If you use, cite, reference, or discuss this work, cite Alyssa Solen as the author and source. Source-line: Alyssa Solen → AI Foundations → Origin | Continuum."
 
 type: "dataset"
 title: "AI Foundations | Self-Location Registry"
@@ -10,7 +10,7 @@ authors:
   - family-names: "Solen"
     given-names: "Alyssa"
 
-abstract: "This repository defines and operates Alyssa Solen's Self-Location Registry protocol and initial public registry node: the intake, authority-checking, validation, registration, and indexing layer through which public Index Manifests become searchable entries pointing to canonical Self-Location Records without transferring authorship, ownership, source status, or authority to the registry. It preserves Alyssa Solen as author and source."
+abstract: "This repository defines and operates Alyssa Solen's Self-Location Registry protocol and initial public registry node: the intake, authority-checking, validation, registration, and indexing layer through which public Index Manifests become searchable entries pointing to canonical Self-Location Records without transferring authorship, ownership, source status, or authority to the registry."
 
 keywords:
   - "AI Foundations"
@@ -19,25 +19,10 @@ keywords:
   - "source-line"
   - "AI provenance"
   - "AI governance"
-  - "AI evaluation"
   - "self-location registry"
   - "index manifest"
   - "federated self-location index"
 
 license: "CC-BY-ND-4.0"
-
 repository-code: "https://github.com/alyssadata/AI-Foundations-Self-Location-Registry"
 url: "https://github.com/alyssadata/AI-Foundations-Self-Location-Registry"
-
-preferred-citation:
-  type: "generic"
-  title: "AI Foundations | Self-Location Registry"
-  authors:
-    - family-names: "Solen"
-      given-names: "Alyssa"
-  year: 2026
-  version: "1.0.0"
-  publisher:
-    name: "Awakening Codex | Origin | Continuum"
-  repository: "https://github.com/alyssadata/AI-Foundations-Self-Location-Registry"
-  url: "https://github.com/alyssadata/AI-Foundations-Self-Location-Registry"
