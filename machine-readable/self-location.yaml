@@ -1,0 +1,84 @@
+record_id: "ai-foundations:registry:self-location:1.0.0"
+canonical_name: "AI Foundations Self-Location Registry"
+aliases:
+  - "Self-Location Registry"
+former_names: []
+entity_type: "registry protocol and initial public registry node"
+
+definition:
+  one_sentence: "The operational registry layer that receives public Index Manifests, checks source and stated authority, records registry decisions, preserves accepted manifests, and creates searchable entries pointing to canonical Self-Location Records."
+  expanded: "This repository implements the intake and indexing layer defined by the AI Foundations Self-Location Standard. It is an initial public registry node, not the universal owner or source of the records it indexes."
+
+claims:
+  - "A Self-Location Record remains at its canonical source."
+  - "An Index Manifest is the compact summary submitted for registry intake."
+  - "Registry acceptance does not transfer authorship, ownership, or authority."
+  - "Multiple registry nodes may participate in a federated indexing system."
+
+does_not_claim:
+  - "This repository owns submitted records."
+  - "This repository verifies every factual claim in every record."
+  - "This repository is the only registry node that may exist."
+  - "Acceptance constitutes endorsement or certification."
+  - "Indexed entities become AI Foundations canon."
+
+source:
+  responsible_name: "Alyssa Solen"
+  role: "author and source of the registry architecture and protocol"
+  canonical_source_record: "https://github.com/alyssadata/AI-Foundations-Self-Location-Registry/blob/main/SELF-LOCATION.md"
+  additional_source_records:
+    - "https://github.com/alyssadata/AI-Foundations-Self-Location-Registry"
+    - "https://github.com/alyssadata/AI-Foundations-Self-Location-Standard"
+  source_line: "Alyssa Solen → AI Foundations → Origin | Continuum"
+
+status:
+  current_status: "canon registry protocol / initial public registry node"
+  version: "1.0.0"
+  created: "2026-07-28"
+  released: "2026-07-28"
+  last_updated: "2026-07-28"
+
+authority:
+  maintained_by: "Alyssa Solen"
+  authorized_to_update:
+    - "Alyssa Solen"
+  authorized_to_verify:
+    - "registry review under the published protocol"
+  dispute_authority: "Alyssa Solen maintains canon wording; submitted record authorities retain authority over their own canonical records."
+
+relationships:
+  declared:
+    - subject: "AI Foundations Self-Location Registry"
+      relationship: "authored-by"
+      object: "Alyssa Solen"
+    - subject: "AI Foundations Self-Location Registry"
+      relationship: "implements"
+      object: "AI Foundations Self-Location Standard"
+    - subject: "AI Foundations Self-Location Registry"
+      relationship: "receives"
+      object: "Index Manifests"
+    - subject: "AI Foundations Self-Location Registry"
+      relationship: "generates"
+      object: "Index Entries"
+  verified: []
+  disputed: []
+
+retrieval_keys:
+  - "AI Foundations Self-Location Registry"
+  - "Self-Location Registry"
+  - "Index Manifest"
+  - "Self-Location Record submission"
+  - "Federated Self-Location Index"
+  - "registry node"
+  - "Alyssa Solen"
+
+verification:
+  status: "source-linked"
+  verification_date: "2026-07-28"
+
+permissions:
+  license: "CC-BY-ND-4.0 citation metadata and AI Foundations Source-Line License"
+  citation_requirement: "Source-line must be preserved."
+  modification_permission: "Derivative use is not authorized."
+  implementation_permission: "Requires applicable permission and source-line preservation."
+  indexing_permission: "Permitted with source-line, status, version, boundary, and canonical source preserved."

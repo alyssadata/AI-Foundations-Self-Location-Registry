@@ -1,0 +1,67 @@
+manifest_version: "1.0.0"
+
+record:
+  record_id: ""
+  canonical_name: ""
+  aliases: []
+  former_names: []
+  entity_type: ""
+  definition_summary: ""
+  canonical_record_url: ""
+  status: ""
+  current_version: ""
+  last_updated: ""
+  verification_status: ""
+  supersedes: ""
+  superseded_by: ""
+
+authority:
+  responsible_name: ""
+  authority_role: ""
+  authority_basis: ""
+  proof_of_control_or_authority_url: ""
+  submission_contact_url: ""
+
+visibility:
+  level: "public"
+  public_fields_only: true
+  restricted_fields_included: false
+
+retrieval:
+  keys: []
+
+claims_summary: []
+
+does_not_claim_summary: []
+
+relationships:
+  - subject_record_id: ""
+    relationship_type: ""
+    object_record_id_or_url: ""
+    evidence_url: ""
+
+permissions:
+  indexing_permission: ""
+  display_permission: ""
+  cache_permission: ""
+  record_license_or_permission_url: ""
+
+integrity:
+  hash_algorithm: ""
+  integrity_hash: ""
+
+unknown_or_disputed_fields: []
+
+submitter_statement:
+  authorized_to_submit: false
+  statement: "I am authorized to submit this Index Manifest. I authorize this registry node to validate the public source, preserve the submitted manifest and its version, create a searchable index entry, and point users and systems back to the canonical record under the permissions stated in the manifest."
+
+registry:
+  registry_node: ""
+  submission_issue: ""
+  submitted_date: ""
+  decision: ""
+  decision_date: ""
+  decision_reason: ""
+  accepted_manifest_path: ""
+  index_entry_path: ""

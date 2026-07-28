@@ -1,0 +1,59 @@
+manifest_version: "1.0.0"
+
+record:
+  record_id: "example:project:sample:1.0.0"
+  canonical_name: "Sample Project"
+  aliases:
+    - "Sample"
+  former_names: []
+  entity_type: "project"
+  definition_summary: "A fictional project used to demonstrate the Index Manifest structure."
+  canonical_record_url: "https://example.org/sample/self-location"
+  status: "active"
+  current_version: "1.0.0"
+  last_updated: "2026-07-28"
+  verification_status: "declared / source-linked"
+
+authority:
+  responsible_name: "Example Record Holder"
+  authority_role: "project maintainer"
+  authority_basis: "control of the canonical project domain"
+  proof_of_control_or_authority_url: "https://example.org/sample/authority"
+  submission_contact_url: "https://example.org/contact"
+
+visibility:
+  level: "public"
+  public_fields_only: true
+  restricted_fields_included: false
+
+retrieval:
+  keys:
+    - "Sample Project"
+    - "example self-location record"
+
+claims_summary:
+  - "The project is maintained at its canonical source."
+
+does_not_claim_summary:
+  - "The example is not a real accepted registry record."
+
+relationships:
+  - subject_record_id: "example:project:sample:1.0.0"
+    relationship_type: "documented-at"
+    object_record_id_or_url: "https://example.org/sample/self-location"
+    evidence_url: "https://example.org/sample/self-location"
+
+permissions:
+  indexing_permission: "This public manifest may be stored and indexed by the registry."
+  display_permission: "The submitted manifest fields may be publicly displayed."
+  cache_permission: "The registry may preserve a versioned snapshot of this manifest."
+  record_license_or_permission_url: "https://example.org/sample/license"
+
+submitter_statement:
+  authorized_to_submit: true
+  statement: "I am authorized to submit this Index Manifest."
+
+registry:
+  registry_node: "AI-Foundations-Self-Location-Registry"
+  decision: "example-only"
+  decision_reason: "Demonstration file; not an accepted external record."
