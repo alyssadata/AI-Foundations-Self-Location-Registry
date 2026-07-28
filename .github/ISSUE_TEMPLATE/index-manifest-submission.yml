@@ -5,14 +5,18 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Issue title:** Add the canonical entity name after `[Index Manifest]`.
+
+        The entity may be a person, project, organization, system, paper, AI agent, or other record subject.
+
         Submit only public information that you are authorized to publish.
         The full Self-Location Record must already exist at a canonical source.
 
   - type: input
     id: canonical_name
     attributes:
-      label: Canonical Name
-      description: Current authoritative name of the entity.
+      label: Canonical Entity Name
+      description: Current authoritative name of the person, project, organization, system, paper, agent, or other entity being indexed.
       placeholder: Example Project
     validations:
       required: true
