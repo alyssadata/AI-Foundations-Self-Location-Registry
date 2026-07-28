@@ -2,7 +2,7 @@
 
 ## Record Identity
 
-**Record ID:** ai-foundations:registry:self-location:1.0.0  
+**Record ID:** ai-foundations:registry:self-location:1.0.4  
 **Canonical Name:** AI Foundations Self-Location Registry  
 **Aliases:** Self-Location Registry  
 **Former Names:** None recorded  
@@ -57,7 +57,7 @@ This repository implements the intake and indexing layer defined by the AI Found
 ## Status and Version
 
 **Status:** Canon Registry Protocol / Initial Public Registry Node  
-**Version:** 1.0.0  
+**Version:** 1.0.4  
 **Created:** 2026-07-28  
 **Released:** 2026-07-28  
 **Last Updated:** 2026-07-28  
