@@ -1,0 +1,31 @@
+{
+  "title": "AI Foundations | Self-Location Registry",
+  "description": "AI Foundations | Self-Location Registry defines and operates the intake, authority-checking, validation, registration, and indexing layer through which public Index Manifests become searchable entries pointing to canonical Self-Location Records without transferring authorship, ownership, source status, or authority to the registry. It preserves Alyssa Solen as author and source.",
+  "creators": [
+    {
+      "name": "Solen, Alyssa"
+    }
+  ],
+  "version": "1.0.6",
+  "publication_date": "2026-07-28",
+  "access_right": "open",
+  "license": "cc-by-nd-4.0",
+  "upload_type": "dataset",
+  "language": "eng",
+  "keywords": [
+    "AI Foundations",
+    "Origin | Continuum",
+    "Alyssa Solen",
+    "source-line",
+    "AI provenance",
+    "AI governance",
+    "AI evaluation",
+    "self-location registry",
+    "self-location record",
+    "index manifest",
+    "federated self-location index",
+    "authority verification",
+    "non-merge",
+    "canonical source"
+  ]
+}
