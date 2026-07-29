@@ -1,4 +1,4 @@
-record_id: "ai-foundations:registry:self-location:1.0.4"
+record_id: "ai-foundations:registry:self-location:1.0.5"
 canonical_name: "AI Foundations Self-Location Registry"
 aliases:
   - "Self-Location Registry"
@@ -33,7 +33,7 @@ source:
 
 status:
   current_status: "canon registry protocol / initial public registry node"
-  version: "1.0.4"
+  version: "1.0.5"
   created: "2026-07-28"
   released: "2026-07-28"
   last_updated: "2026-07-28"
