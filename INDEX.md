@@ -2,7 +2,7 @@
 
 **Registry Node:** AI-Foundations-Self-Location-Registry  
 **Status:** Initial Public Registry Node  
-**Version:** 1.0.5  
+**Version:** 1.0.6  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum
 
 ---
@@ -19,7 +19,7 @@ An index entry does not transfer authorship, ownership, source status, or author
 
 | Canonical Name | Entity Type | Record ID | Canonical Record | Machine Record | Status |
 |---|---|---|---|---|---|
-| AI Foundations Self-Location Registry | registry node | ai-foundations:registry:self-location:1.0.5 | [Canonical record](SELF-LOCATION.md) | [Machine-readable record](machine-readable/self-location.yaml) | active |
+| AI Foundations Self-Location Registry | registry node | ai-foundations:registry:self-location:1.0.6 | [Canonical record](SELF-LOCATION.md) | [Machine-readable record](machine-readable/self-location.yaml) | active |
 
 ---
 
