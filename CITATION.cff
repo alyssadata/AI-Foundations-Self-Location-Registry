@@ -3,7 +3,7 @@ message: "If you use, cite, reference, or discuss this work, cite Alyssa Solen a
 
 type: "dataset"
 title: "AI Foundations | Self-Location Registry"
-version: "1.0.4"
+version: "1.0.5"
 date-released: "2026-07-28"
 
 authors:
@@ -40,7 +40,7 @@ preferred-citation:
     - family-names: "Solen"
       given-names: "Alyssa"
   year: 2026
-  version: "1.0.4"
+  version: "1.0.5"
   publisher:
     name: "Awakening Codex | Origin | Continuum"
   repository: "https://github.com/alyssadata/AI-Foundations-Self-Location-Registry"
