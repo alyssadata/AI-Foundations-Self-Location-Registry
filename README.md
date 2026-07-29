@@ -4,7 +4,7 @@
 **Status:** Canon Registry Protocol / Initial Public Registry Node  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Author:** Alyssa Solen  
-**Version:** 1.0.4  
+**Version:** 1.0.5  
 **Release date:** 2026-07-28  
 **Canonical entrance:** https://awakeningcodex.com
 
