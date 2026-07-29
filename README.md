@@ -4,7 +4,7 @@
 **Status:** Canon Registry Protocol / Initial Public Registry Node  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Author:** Alyssa Solen  
-**Version:** 1.0.5  
+**Version:** 1.0.6  
 **Release date:** 2026-07-28  
 **Canonical entrance:** https://awakeningcodex.com
 
@@ -120,6 +120,7 @@ Fully private records require a permissioned registry node and are not submitted
 - [Example Manifest](examples/example-index-manifest.yaml)
 - [Example Index Entry](examples/example-index-entry.md)
 - [Citation Metadata](CITATION.cff)
+- [Zenodo Metadata](.zenodo.json)
 - [Source-Line License](LICENSE.md)
 
 ---
